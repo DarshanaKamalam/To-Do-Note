@@ -27,7 +27,7 @@ function Signup(props)
     }
 
     return (
-        <div className="bg-black p-10 lg:p-10 md:10 sm:p-5">
+        <div className="bg-black lg:p-10 md:10 p-5">
             <div className="bg-white p-10 border rounded-md ">
                 <h1 className="text-3xl font-medium">Hey Hi</h1>
                 <p>Signup here :)</p>

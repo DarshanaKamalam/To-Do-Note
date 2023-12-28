@@ -12,7 +12,7 @@ function Landing()
     console.log(data)
 
     return (
-        <div className="bg-black p-16 lg:p-10 md:10 sm:p-5">
+        <div className="bg-black lg:p-16 md:p-10 p-5">
             <div className="bg-[#EFEFEF] p-10 border rounded-md">
                 <Header  username={data.state.user}/>
                 <div className="flex justify-between gap-7 my-5 flex-wrap">
